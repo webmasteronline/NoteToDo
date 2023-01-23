@@ -23,9 +23,9 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 'off',
 		'no-console': 1,
 		'prettier/prettier': 0,
-		// Note: you must disable the base rule as it can report incorrect errors
+
 		'no-unused-vars': 'off',
-		'@typescript-eslint/no-unused-vars': 'warn',
+		'@typescript-eslint/no-unused-vars': 'off',
 		'@typescript-eslint/no-empty-interface': 'error',
 	},
 }
